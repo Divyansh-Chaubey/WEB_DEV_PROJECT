@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latest</title>
+    <link rel="stylesheet" href="catalog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+</head>
+<body>
+     <header>
+      <div class="container">
+        <nav>
+          <div class="left">
+            <img src="./images/logo.png" alt="Anime Catalog Logo" class="logo" />
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="catalog.html">Catalog</a></li>
+              <li><a href="latest.html">Latest</a></li>
+              <li><a href="https://discord.com/login"> <i class="fa-brands fa-discord"></i></i> </a></li>
+            </ul>
+          </div>
+          <div class="right">
+            <input type="search" placeholder=" Search Anime" aria-label="Search Anime" />
+            <button aria-label="Log in" onclick="openPage()">Log in
+            </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+
+    <main>
+
+        <section>
+            <div id="top-part">
+                <div class="top">
+                    <p>SEARCH</p>
+                    <input type="search" placeholder="Search...">
+                    <button type="button">Search</button>
+                </div>
+                <div class="bottom"> 
+                    <div>
+                        <label for="genere">GENRE</label>
+                        <select name="genere" id="genere">
+                            <option value="">Select Genre</option>
+                            <option value="action">Action</option>
+                            <option value="comedy">Comedy</option>
+                            <option value="drama">Drama</option>
+                            <option value="horror">Horror</option>
+                            <option value="sci-fi">Sci-Fi</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="format">FORMAT</label>
+                        <select name="format" id="format">
+                            <option value="">Select Format</option>
+                            <option value="dvd">DVD</option>
+                            <option value="digital">Digital</option>
+                            <option value="blu-ray">Blu-ray</option>
+                            <option value="streaming">Streaming</option>
+                            <option value="vinyl">Vinyl</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="year">YEAR</label>
+                        <select name="year" id="year">
+                            <option value="">Select Year</option>
+                            <option value="2023">2023</option>
+                            <option value="2022">2022</option>
+                            <option value="2021">2021</option>
+                            <option value="2020">2020</option>
+                            <option value="2019">2019</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="season">SEASON</label>
+                        <select name="season" id="season">
+                            <option value="">Select Season</option>
+                            <option value="spring">Spring</option>
+                            <option value="summer">Summer</option>
+                            <option value="fall">Fall</option>
+                            <option value="winter">Winter</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="status">STATUS</label>
+                        <select name="status" id="status">
+                            <option value="">Select Status</option>
+                            <option value="ongoing">Ongoing</option>
+                            <option value="completed">Completed</option>
+                            <option value="upcoming">Upcoming</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="sort-by">SORT BY</label>
+                        <select name="sort-by" id="sort-by">
+                            <option value="">Select Sorting Option</option>
+                            <option value="name">Name</option>
+                            <option value="date">Date</option>
+                            <option value="rating">Rating</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+            <section>
+                <section id="recent">
+                    <div class="recent-images">
+                      <figure>
+                        <img src="./images/recent release/1.webp" alt="Recent Anime 1" height="200px" loading="lazy" />
+                        <p>Dragon Ball</p>
+                      </figure>
+                      <figure>
+                        <img src="./images/recent release/2.webp" alt="Recent Anime 2" height="200px" loading="lazy" />
+                        <p>Dandadan</p>
+                      </figure>
+                      <figure>
+                        <img src="./images/recent release/3.webp" alt="Recent Anime 3" height="200px" loading="lazy" />
+                        <p>Naruto</p>
+                      </figure>
+                      <figure>
+                        <img src="./images/recent release/4.webp" alt="Recent Anime 4" height="200px" loading="lazy" />
+                        <p>Tokyo Ghoul</p>
+                      </figure>
+                      <figure>
+                        <img src="./images/recent release/5.webp" alt="Recent Anime 5" height="200px" loading="lazy" />
+                        <p>Shield Hero</p>
+                      </figure>
+                      <figure>
+                        <img src="./images/recent release/6.webp" alt="Recent Anime 6" height="200px" loading="lazy" />
+                        <p>Tenshura</p>
+                      </figure>
+                      <figure>
+                        <img src="./images/recent release/7.jpg" alt="Recent Anime 7" height="200px" loading="lazy" />
+                        <p>365 Day To The Wedding</p>
+                      </figure>
+                      <figure>
+                        <img src="./images/recent release/8.webp" alt="Recent Anime 8" height="200px" loading="lazy" />
+                        <p>Tokto Revenger</p>
+                      </figure>
+                      <figure>
+                        <img src="./images/recent release/9.webp" alt="Recent Anime 9" height="200px" loading="lazy" />
+                        <p>Pokeymon</p>
+                      </figure>
+                    </div>
+                  </section>
+            </section>
+
+        
+    </main>
+
+      <footer>
+        <div class="left">
+          <h1><a href="index.html"> GOJO.LIVE</a></h1>
+          <p>This site does not store any files on our server, we only linked to the media which is hosted on 3rd party services.</p>
+        </div>
+    
+    
+        <div class="right">
+          <ul>
+            <li>This Season </li>
+            <li>Popular Anime</li>
+            <li>Popular Manga</li>
+          </ul>
+          <ul>
+            <li>Movies </li>
+            <li>TV Shows</li>
+            <li>Discord</li>
+          </ul>
+        </div>
+      </footer>
+    
+
+</body>
+</html>

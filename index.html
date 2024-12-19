@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GOJO.live</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  </head>
+  
+  <body>
+  <!---------------------------------------header----------------------------------------------------------->
+  <header>
+    <!---------------------------------------nav bar----------------------------------------------------------->
+    <div class="container">
+      <nav>
+        <div class="left">
+          <img src="./images/logo.png" alt="Anime Catalog Logo" class="logo" />
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="catalog.html">Catalog</a></li>
+            <li><a href="latest.html">Latest</a></li>
+            <li><a href="https://discord.com/login"> <i class="fa-brands fa-discord"></i></i> </a></li>
+          </ul>
+        </div>
+        <div class="right">
+          <input type="search" placeholder=" Search Anime" aria-label="Search Anime" />
+          <button aria-label="Log in" onclick="openPage()">Log in
+          </button>
+        </div>
+      </nav>
+    </div>
+    <!---------------------------------------nav bar----------------------------------------------------------->
+
+
+    <!---------------------------------------sliding-window----------------------------------------------------------->
+    
+    
+    
+    <div class="carousel">
+      <div class="slides">
+        <div class="content">
+          <h1>Tokyo Ghoul</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+            sapiente laborum mollitia, eius, et deleniti veritatis magnam
+            tempore inventore eum culpa consectetur sint dicta repellendus
+            temporibus hic sit maiores commodi!
+          </p>
+        </div>
+        <div class="button">
+          <button class="rm" aria-label="Read More about Tokyo Ghoul">Read More</button>
+          <button class="wn" aria-label="Watch Tokyo Ghoul Now">Watch Now</button>
+        </div>
+      </div>
+      <button class="prev" onclick="prevSlide()" aria-label="Previous Slide">&#10094;</button>
+      <button class="next" onclick="nextSlide()" aria-label="Next Slide">&#10095;</button>
+    </div>
+    <!---------------------------------------sliding-window----------------------------------------------------------->
+
+  </header>
+
+  <!---------------------------------------header----------------------------------------------------------->
+  
+  <!----------------------------------------main------------------------------------------------------------------>
+  
+  
+  <main>
+    <!---------------------------------------section 1------------------------------------------------------------------>
+    <section id="trending">
+      <div class="trending_head">
+        <h1><span>|</span> Trending</h1>
+      </div>
+      <div class="trending-images">
+        <figure class="img">
+          <img src="./images/1.webp" alt="Trending Anime 1" loading="lazy" />
+          <p><a href="discription.html">365 Day To The Wedding </a></p>
+        </figure>
+        <figure class="img">
+          <img src="./images/2.webp" alt="Trending Anime 2" loading="lazy" />
+          <p> <a href="discription.html">Dandadan</a></p>
+        </figure>
+        <figure class="img">
+          <img src="./images/3.webp" alt="Trending Anime 3" loading="lazy" />
+          <p> <a href="discription.html">Blue Box </a></p>
+        </figure>
+        <figure class="img">
+          <img src="./images/4.webp" alt="Trending Anime 4" loading="lazy" />
+          <p> <a href="discription.html">Goodbye Dragon life </a></p>
+        </figure>
+        <figure class="img">
+          <img src="./images/5.webp" alt="Trending Anime 5" loading="lazy" />
+          <p><a href="discription.html"> Danmachi </a></p>
+        </figure>
+        <figure class="img">
+          <img src="./images/6.webp" alt="Trending Anime 6" loading="lazy" />
+          <p><a href="discription.html">Loner Life In Another World</a></p>
+        </figure>
+        <figure class="img">
+          <img src="./images/7.webp" alt="Trending Anime 7" loading="lazy" />
+          <p><a href="discription.html"> Naruto</a></p>
+        </figure>
+        <figure class="img">
+          <img src="./images/8.webp" alt="Trending Anime 8" loading="lazy" />
+          <p><a href="discription.html">One Piece</a></p>
+        </figure>
+        <figure class="img">
+          <img src="./images/9.webp" alt="Trending Anime 9" loading="lazy" />
+          <p> <a href="discription.html">Tokyo Ghoul </a></p>
+        </figure>
+      </div>
+    </section>
+
+    <section id="recent">
+      <div class="re-header">
+        <h1><span>|</span> Recent Releases</h1>
+      </div>
+      <div class="recent-images">
+        <figure>
+          <img src="./images/recent release/1.webp" alt="Recent Anime 1" height="200px" loading="lazy" />
+          <p>Dragon Ball</p>
+        </figure>
+        <figure>
+          <img src="./images/recent release/2.webp" alt="Recent Anime 2" height="200px" loading="lazy" />
+          <p>Dandadan</p>
+        </figure>
+        <figure>
+          <img src="./images/recent release/3.webp" alt="Recent Anime 3" height="200px" loading="lazy" />
+          <p>Naruto</p>
+        </figure>
+        <figure>
+          <img src="./images/recent release/4.webp" alt="Recent Anime 4" height="200px" loading="lazy" />
+          <p>Tokyo Ghoul</p>
+        </figure>
+        <figure>
+          <img src="./images/recent release/5.webp" alt="Recent Anime 5" height="200px" loading="lazy" />
+          <p>Shield Hero</p>
+        </figure>
+        <figure>
+          <img src="./images/recent release/6.webp" alt="Recent Anime 6" height="200px" loading="lazy" />
+          <p>Tenshura</p>
+        </figure>
+        <figure>
+          <img src="./images/recent release/7.jpg" alt="Recent Anime 7" height="200px" loading="lazy" />
+          <p>365 Day To The Wedding</p>
+        </figure>
+        <figure>
+          <img src="./images/recent release/8.webp" alt="Recent Anime 8" height="200px" loading="lazy" />
+          <p>Tokto Revenger</p>
+        </figure>
+        <figure>
+          <img src="./images/recent release/9.webp" alt="Recent Anime 9" height="200px" loading="lazy" />
+          <p>Pokeymon</p>
+        </figure>
+      </div>
+    </section>
+
+    <section id="top-anime">
+      <div class="top-anime">
+        <div class="top-anime-heading">
+          <h1><span>|</span> Top Anime</h1>
+        </div>
+        <div class="ele">
+          <div class="first"><h1>#1</h1></div>
+          <div>
+            <img src="./images/1.webp" alt="365 Wedding Day" />
+            <p>365 Day To The Wedding </p>
+          </div>
+        </div>
+        <div class="ele">
+          <div class="second"><h1>#2</h1></div>
+          <div>
+            <img src="./images/2.webp" alt="Dandadan" />
+            <p>Dandadan</p>
+          </div>
+        </div>
+        <div class="ele">
+          <div class="third"><h1>#3</h1></div>
+          <div>
+            <img src="./images/3.webp" alt="Blue Box" />
+            <p>Blue Box</p>
+          </div>
+        </div>
+        <div class="ele">
+          <div class="he"><h1>#4</h1></div>
+          <div>
+            <img src="./images/4.webp" alt="Good Bye Dragon Life" />
+            <p>Good Bye Dragon Life</p>
+          </div>
+        </div>
+        <div class="ele">
+          <div class="he"><h1>#5</h1></div>
+          <div>
+            <img src="./images/5.webp" alt="Danmachi" />
+            <p>Danmachi</p>
+          </div>
+        </div>
+        <div class="ele">
+          <div class="he"><h1>#6</h1></div>
+          <div>
+            <img src="./images/6.webp" alt="Loner Life In Another World" />
+            <p>Loner Life In Another World</p>
+          </div>
+        </div>
+        <div class="ele">
+          <div class="he"><h1>#7</h1></div>
+          <div>
+            <img src="./images/7.webp" alt="Naruto" />
+            <p>Naruto</p>
+          </div>
+        </div>
+        <div class="ele">
+          <div class="he"><h1>#8</h1></div>
+          <div>
+            <img src="./images/8.webp" alt="One Piece" />
+            <p>One Piece</p>
+          </div>
+        </div>
+        <div class="ele">
+          <div class="he"><h1>#9</h1></div>
+          <div>
+            <img src="./images/9.webp" alt="Tokyo Ghoul" />
+            <p>Tokyo Ghoul</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="trending">
+      <div class="trending_head">
+        <h1><span>|</span> Most Popular</h1>
+      </div>
+      <div class="trending-images">
+        <figure class="img">
+          <img src="./images/1.webp" alt="Trending Anime 1" loading="lazy" />
+        </figure>
+        <figure class="img">
+          <img src="./images/2.webp" alt="Trending Anime 2" loading="lazy" />
+        </figure>
+        <figure class="img">
+          <img src="./images/3.webp" alt="Trending Anime 3" loading="lazy" />
+        </figure>
+        <figure class="img">
+          <img src="./images/4.webp" alt="Trending Anime 4" loading="lazy" />
+        </figure>
+        <figure class="img">
+          <img src="./images/5.webp" alt="Trending Anime 5" loading="lazy" />
+        </figure>
+        <figure class="img">
+          <img src="./images/6.webp" alt="Trending Anime 6" loading="lazy" />
+        </figure>
+        <figure class="img">
+          <img src="./images/7.webp" alt="Trending Anime 7" loading="lazy" />
+        </figure>
+        <figure class="img">
+          <img src="./images/8.webp" alt="Trending Anime 8" loading="lazy" />
+        </figure>
+        <figure class="img">
+          <img src="./images/9.webp" alt="Trending Anime 9" loading="lazy" />
+        </figure>
+      </div>
+    </section>
+
+
+    <section id="trending">
+      <div class="trending_head">
+        <h1><span>|</span> Top Upcomming</h1>
+      </div>
+      <div class="trending-images">
+        <figure class="img">
+          <img src="./images/1.webp" alt="Trending Anime 1" loading="lazy" />
+        </figure>
+        <figure class="img">
+          <img src="./images/2.webp" alt="Trending Anime 2" loading="lazy" />
+        </figure>
+        <figure class="img">
+          <img src="./images/3.webp" alt="Trending Anime 3" loading="lazy" />
+        </figure>
+        <figure class="img">
+          <img src="./images/4.webp" alt="Trending Anime 4" loading="lazy" />
+        </figure>
+        <figure class="img">
+          <img src="./images/5.webp" alt="Trending Anime 5" loading="lazy" />
+        </figure>
+        <figure class="img">
+          <img src="./images/6.webp" alt="Trending Anime 6" loading="lazy" />
+        </figure>
+        <figure class="img">
+          <img src="./images/7.webp" alt="Trending Anime 7" loading="lazy" />
+        </figure>
+        <figure class="img">
+          <img src="./images/8.webp" alt="Trending Anime 8" loading="lazy" />
+        </figure>
+        <figure class="img">
+          <img src="./images/9.webp" alt="Trending Anime 9" loading="lazy" />
+        </figure>
+      </div>
+    </section>
+
+  </main>
+
+  <!----------------------------------------main------------------------------------------------------------------>
+
+  <!-- --------------------------------footer------------------------ -->
+
+
+  <footer>
+    <div class="left">
+      <h1><a href="index.html"> GOJO.LIVE</a></h1>
+      <p>This site does not store any files on our server, we only linked to the media which is hosted on 3rd party services.</p>
+    </div>
+    
+    
+    <div class="right">
+      <ul>
+        <li>This Season </li>
+        <li>Popular Anime</li>
+        <li>Popular Manga</li>
+      </ul>
+      <ul>
+        <li>Movies </li>
+        <li>TV Shows</li>
+        <li>Discord</li>
+      </ul>
+    </div>
+  </footer>
+  <!-- --------------------------------footer------------------------ -->
+  
+</body>
+<script>
+function openPage(url = "login.html") {
+  try {
+    // Check if the URL is a valid string
+    if (typeof url === 'string' && url.trim() !== '') {
+      window.location.href = url;
+    } else {
+      console.error("Invalid URL provided.");
+    }
+  } catch (error) {
+    console.error("An error occurred while trying to open the page:", error);
+  }
+}
+</script>
+</html
