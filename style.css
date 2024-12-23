@@ -579,11 +579,7 @@ footer .right ul li:hover{
         padding: 10px;
     }
 
-    footer .right
-    {
-
-    }
-
+   
     footer .left{
       gap: none;
     }
@@ -593,9 +589,16 @@ footer .right ul li:hover{
     }
 
 
-    input:checked ~ header div nav {
+    input:checked ~ header div nav div ul{
         display: block;
-        position: fixed
-       
+        position: fixed;
+    }
+
+    header div nav div ul{
+        position:fixed;
+        bottom: 8px;
+        right: 10px; 
+        z-index: 9999;
+        background: transparent;
     }
 }

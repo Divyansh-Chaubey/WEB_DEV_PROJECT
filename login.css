@@ -101,3 +101,12 @@ input[type="text"], input[type="password"]{
     color: rgb(236, 72, 153);
 
 }
+
+
+
+@media (max-width:450px) 
+{
+      .login-container img{
+        display: none;
+      }
+}
