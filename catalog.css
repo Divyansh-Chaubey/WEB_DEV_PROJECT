@@ -273,3 +273,161 @@ footer .right ul li:hover{
     cursor:pointer;
 }
 /* =================== footer ========================= */
+
+@media (max-width: 750px) {
+    
+    
+    body {
+        font-size: 14px; 
+    }
+    .container{
+        padding: none;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav .left ul {
+        display: none;
+        padding: 0; }
+
+    nav .right {
+        display: flex;
+        align-items: center;
+    }
+
+    nav .right input {
+        width: 80%;
+        max-width: 200px; 
+    }
+
+    nav .left button {
+        width: 80%; 
+        max-width: 200px; }
+        
+    .slides div{
+        padding-left: 0px;
+    }
+
+    .slides .content p {
+        font-size: 12px; 
+    }
+
+
+    .recent-images {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+
+    #trending .trending_head{
+        padding-left: 6vh;
+    }
+
+    #recent .re-header {
+        padding-left: 6vh;
+    }
+
+   
+}
+
+@media (max-width: 450px) {
+    body label {
+        padding: 5px;
+        border-radius: 5px;
+        display: block;
+        position: fixed;
+        bottom: 10px;
+        right: 10px; 
+        z-index: 9999;
+        background-color: rgb(128, 128, 128);
+        margin: 0;
+    }
+
+    body label i {
+        color: var(--primary-color);
+    }
+
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    nav .left ul {
+        display: none; 
+    }
+
+    nav .right {
+        width: 100%;
+        display: contents;
+        padding: 0px;
+        gap: 0px; 
+    }
+
+    nav .right input {
+        width: 100%; 
+    }
+
+    nav .right button {
+        width: 60px;
+    }
+    .slides div{
+        padding-left: 0px;
+    }
+
+    .slides .content p {
+        display: none; 
+    }
+
+    .slides h1 {
+        align-self: flex-start; 
+    }
+
+    #recent
+    {
+      padding: 2vh;
+    }
+
+    .recent-images {
+        grid-template-columns: repeat(1fr); 
+    }
+
+    #trending .trending_head{
+        padding-left: 6vh;
+    }
+
+    #recent .re-header {
+        padding-left: 6vh;
+    }
+
+
+    input:checked~nav{
+        display: block;
+
+    }
+
+
+    footer{
+        width: auto;
+        padding: 10px;
+    }
+
+    footer .right
+    {
+
+    }
+
+    footer .left{
+      gap: none;
+    }
+
+    footer .left p{
+        display: none;
+    }
+
+
+    input:checked ~ header div nav {
+        display: block;
+        position: fixed
+        
+    }
+}
