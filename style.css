@@ -627,10 +627,6 @@ footer .right ul li:hover{
         position: fixed;
     }
      
-    nav .left ul a:hover{
-        background-color: rgb(236, 72, 153);
-        background-size: 0cqmax;
-    }
    
     header div nav div ul{
         display: block;
