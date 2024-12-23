@@ -29,6 +29,13 @@ body {
     background-color: var(--background-color);
 }
 
+
+body label{
+    display:none;
+}
+body #me{
+    display:none;
+}
 /* =================== Global Styles ========================= */
 .container {
     width: 100%;
@@ -453,8 +460,15 @@ footer .right ul li:hover{
         padding-left: 6vh;
     }
 
-   
+    .banner{
+        background-image: none;
+    }
+
+    .banner div .bu {
+        justify-content:flex-start ;
+     }
 }
+   
 
 @media (max-width: 450px) {
     body label {
@@ -525,15 +539,8 @@ footer .right ul li:hover{
         padding-left: 6vh;
     }
 
-
-    input:checked~nav{
-        display: block;
-
-    }
-
-
     footer{
-        width: auto;
+        width: 100%;
         padding: 10px;
     }
 
@@ -548,10 +555,34 @@ footer .right ul li:hover{
     }
 
 
-    input:checked ~ header div nav {
+    input:checked ~ header div nav div ul{
         display: block;
-        position: fixed
-        
-
     }
+     
+    nav .left ul a:hover{
+        background-color: rgb(236, 72, 153);
+        background-size: 0cqmax;
+    }
+   
+    header div nav div ul{
+        display: block;
+        position: fixed;
+        right: 10px;
+        bottom: 111px;
+        z-index: 9999;
+    }
+    .banner{
+        background-image: none;
+        display: block;
+        height: fit-content;
+        width: fit-content;
+    }
+
+    .banner div img
+    {
+    padding-top: 12vh;
+    }
+    .banner div .bu {
+        justify-content:flex-start ;
+     }
 }

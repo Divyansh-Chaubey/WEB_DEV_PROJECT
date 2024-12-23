@@ -8,6 +8,12 @@
     to { transform: rotate(360deg);  }
  }
 
+ .fa-solid, .fas {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 28px;
+ }
+
 
 :root {
     --primary-color: rgb(236, 72, 153);
@@ -484,7 +490,7 @@ footer .right ul li:hover{
 
 
     .recent-images {
-        grid-template-columns: repeat(2, 1fr); 
+        grid-template-columns: repeat(2,1fr); 
     }
 
     #trending .trending_head{
@@ -500,7 +506,7 @@ footer .right ul li:hover{
 
 @media (max-width: 450px) {
     body label {
-        padding: 5px;
+        padding: 2vh;
         border-radius: 5px;
         display: block;
         position: fixed;
@@ -513,6 +519,7 @@ footer .right ul li:hover{
 
     body label i {
         color: var(--primary-color);
+        size: 30px;
     }
 
 
@@ -550,13 +557,43 @@ footer .right ul li:hover{
         align-self: flex-start; 
     }
 
-    #recent
-    {
-      padding: 2vh;
+    #recent {
+        display: flex;
+        align-items: center;
+        overflow: hidden; 
+        flex-direction: column; 
+        position: relative;
+        height:fit-content; 
+        margin-top: 10vh; 
     }
-
+    
     .recent-images {
-        grid-template-columns: repeat(1fr); 
+        width: 80%; 
+        display: -webkit-inline-box;
+        overflow-x: auto; 
+        scroll-snap-type: x mandatory; 
+        scrollbar-width: none; 
+        flex: 1; 
+        gap: 10px; 
+    }
+    
+    .recent-images::-webkit-scrollbar {
+        display: none; 
+    }
+    
+    .recent-images figure {
+        margin: 0; 
+    }
+    
+    .recent-images figure img {
+        flex: 0 0 auto; 
+        width: 200px; 
+        margin-right: 10px; 
+        scroll-snap-align: start; 
+    }
+    
+    #trending{
+        height: fit-content;
     }
 
     #trending .trending_head{
@@ -568,10 +605,6 @@ footer .right ul li:hover{
     }
 
 
-    input:checked~nav{
-        display: block;
-
-    }
 
 
     footer{
@@ -593,12 +626,16 @@ footer .right ul li:hover{
         display: block;
         position: fixed;
     }
-
+     
+    nav .left ul a:hover{
+        background-color: rgb(236, 72, 153);
+        background-size: 0cqmax;
+    }
+   
     header div nav div ul{
-        position:fixed;
-        bottom: 8px;
-        right: 10px; 
-        z-index: 9999;
-        background: transparent;
+        display: block;
+        position: fixed;
+        right: 10px;
+        bottom: 111px;
     }
 }

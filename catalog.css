@@ -161,9 +161,10 @@ nav .right button:hover{
 
 
 .bottom{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 10px;
+    display: flex;
+    gap: 1vh;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .bottom div{
@@ -347,6 +348,16 @@ footer .right ul li:hover{
         color: var(--primary-color);
     }
 
+    #top-part
+    {
+        width: 300px;
+
+    }
+
+        #top-part .bottom{
+            display: none;
+        }
+
 
     nav{
         display: flex;
@@ -384,12 +395,16 @@ footer .right ul li:hover{
 
     #recent
     {
-      padding: 2vh;
+      margin: 0px;
     }
+    #recent .recent-images {
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+ 
 
-    .recent-images {
-        grid-template-columns: repeat(1fr); 
     }
+    
+    
 
     #trending .trending_head{
         padding-left: 6vh;
@@ -407,7 +422,7 @@ footer .right ul li:hover{
 
 
     footer{
-        width: auto;
+        width: 100%;
         padding: 10px;
     }
 
