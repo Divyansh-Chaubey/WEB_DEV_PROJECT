@@ -29,6 +29,7 @@ body #me{
     box-sizing: border-box;
     color: var(--text-color);
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
