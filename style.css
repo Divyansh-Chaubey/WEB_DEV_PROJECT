@@ -634,4 +634,16 @@ footer .right ul li:hover{
         right: 10px;
         bottom: 111px;
     }
+
+    #top-anime .top-anime
+    {
+        padding: 0px;
+
+    }
+
+
+    #top-anime .top-anime .ele
+    {
+        gap: 2vh;
+    }
 }
