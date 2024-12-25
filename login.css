@@ -33,6 +33,48 @@ body{
     height: 414px;
 }
 
+.login-container .side{
+     animation: tra infinite 40s ease-in-out alternate-reverse backwards running;
+     width: 100%;
+}
+
+
+@keyframes tra {
+
+    0% {
+        background-image: url(./images/1.webp);
+        background-position: center;
+        background-size: cover;
+    }
+    20% {
+        background-image: url(./images/2.webp);
+        background-position: center;
+        background-size: cover;
+    }
+    40% {
+        background-image: url(./images/6.webp);
+        background-position: center;
+        background-size: cover;
+    }
+    60% {
+        background-image: url(./images/5.webp);
+        background-position: center;
+        background-size: cover;
+    }
+    80% {
+        background-image: url(./images/4.webp);
+        background-position: center;
+        background-size: cover;
+    }
+
+    100% {
+        background-image: url(./images/3.webp);
+        background-position: center;
+        background-size: cover;
+    }
+    
+}
+
 .login-form {
     width: -webkit-fill-available;
     display: flex;
