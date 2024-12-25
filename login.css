@@ -34,7 +34,7 @@ body{
 }
 
 .login-container .side{
-     animation: tra infinite 40s ease-in-out alternate-reverse backwards running;
+     animation: tra infinite 40s ease-in alternate-reverse backwards running;
      width: 100%;
 }
 
