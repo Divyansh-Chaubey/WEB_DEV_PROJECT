@@ -174,12 +174,20 @@ nav .right button:hover{
     gap: 1vh;
     justify-content: space-between;
     flex-wrap: wrap;
+   
 }
 
 .bottom div{
     width: auto;
     display: grid;
+   
 }
+.bottom div label{
+    display: flex;
+    position: relative;
+    margin-top: 2vh;
+}
+
 
 .bottom div select{
     width: 20vh;
@@ -360,6 +368,7 @@ footer .right ul li:hover{
     #top-part
     {
         width: 300px;
+        margin-top: 10px;
 
     }
 
