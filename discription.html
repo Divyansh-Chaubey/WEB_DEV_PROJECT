@@ -48,12 +48,13 @@
                         Dandadan
                         </h1>
                         <div class="bu">
-                        <input type="button" value="Watch Now" class="watch">
+                          <input type="button" value="Watch Now" class="watch" id="playButton" aria-label="Watch video">
                         <input type="button" value="Add To List" class="list">
+                      </div>
                     </div>
+                  </div>
                 </div>
-            </div>
-            </div>
+                <iframe id="videoFrame" width="560" height="315" src="https://www.youtube-nocookie.com/embed/a4na2opArGY?si=UpqpY2xeM0xgM9NE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
          <div>
             <div id="header">
                 <header id="container">
@@ -193,7 +194,6 @@
 <script>
     function openPage(url = "login.html") {
       try {
-        // Check if the URL is a valid string
         if (typeof url === 'string' && url.trim() !== '') {
           window.location.href = url;
         } else {
@@ -203,6 +203,19 @@
         console.error("An error occurred while trying to open the page:", error);
       }
     }
-    </script>
+
+
+    // document.getElementById('playButton').addEventListener('click', function() {
+    //         const videoFrame = document.getElementById('videoFrame');
+    //         if (videoFrame.style.display === "none") {
+    //             videoFrame.style.display = "block";
+                
+    //             videoFrame.src = "https://www.youtube.com/embed/VIDEO_ID?autoplay=1";
+    //         } else {
+    //             videoFrame.style.display = "none";
+    //             videoFrame.src = ""; 
+    //         }
+    //     });
+        </script>
 
 </html>
