@@ -469,6 +469,12 @@ footer .right ul li:hover{
         bottom: 111px;
         z-index: 9999;
     }
+
+    body label i {
+        color: var(--primary-color);
+        size: 30px;
+    }
+
 }
 
 /* =================== media queries ========================= */
