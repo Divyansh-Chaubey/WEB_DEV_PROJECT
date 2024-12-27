@@ -351,20 +351,17 @@ footer .right ul li:hover{
 
 @media (max-width: 450px) {
     body label {
-        padding: 5px;
+        padding: 2vh;
         border-radius: 5px;
         display: block;
         position: fixed;
         bottom: 10px;
-        right: 10px; 
+        right: 10px;
         z-index: 9999;
         background-color: rgb(128, 128, 128);
         margin: 0;
     }
 
-    body label i {
-        color: var(--primary-color);
-    }
 
     #top-part
     {
@@ -468,11 +465,12 @@ footer .right ul li:hover{
         right: 10px;
         bottom: 111px;
         z-index: 9999;
+        background-color: rgba(255, 255, 255, 0.2);
     }
 
     body label i {
         color: var(--primary-color);
-        size: 30px;
+        font-size: 27px;
     }
 
 }
